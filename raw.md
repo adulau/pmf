@@ -3,7 +3,8 @@
 % category = "info"
 % docName = "draft-dulaunoy-programming-methodology-framework"
 % ipr= "trust200902"
-% area = "Security"
+% area = "Internet"
+% keyword = ["software engineering", "engineering", "pmf", "programming"]
 %
 % date = 2017-10-15T00:00:00Z
 %
