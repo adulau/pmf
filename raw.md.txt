@@ -5,7 +5,7 @@
 Network Working Group                                        A. Dulaunoy
 Internet-Draft                                                 A. Iklody
 Intended status: Informational                                     CIRCL
-Expires: March 31, 2018                               September 27, 2017
+Expires: April 18, 2018                                 October 15, 2017
 
 
                Programming Methodology Framework aka PMF
@@ -37,7 +37,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on March 31, 2018.
+   This Internet-Draft will expire on April 18, 2018.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Dulaunoy & Iklody        Expires March 31, 2018                 [Page 1]
+Dulaunoy & Iklody        Expires April 18, 2018                 [Page 1]
 
-Internet-Draft   PMF - Programming Methodology Framework  September 2017
+Internet-Draft   PMF - Programming Methodology Framework    October 2017
 
 
    include Simplified BSD License text as described in Section 4.e of
@@ -68,10 +68,10 @@ Table of Contents
      1.1.  Management and PMF methodology  . . . . . . . . . . . . .   3
      1.2.  Conventions and Terminology . . . . . . . . . . . . . . .   3
    2.  Security Considerations . . . . . . . . . . . . . . . . . . .   3
-   3.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   3
-   4.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   3
-     4.1.  Normative References  . . . . . . . . . . . . . . . . . .   3
-     4.2.  Informative References  . . . . . . . . . . . . . . . . .   3
+   3.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   4
+   4.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   4
+     4.1.  Normative References  . . . . . . . . . . . . . . . . . .   4
+     4.2.  Informative References  . . . . . . . . . . . . . . . . .   4
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   4
 
 1.  Introduction
@@ -104,15 +104,35 @@ Table of Contents
 
    Repeat the above process until the software is delivered.
 
+   A simplified overview of the process can be described as follow:
 
 
 
 
-
-Dulaunoy & Iklody        Expires March 31, 2018                 [Page 2]
+Dulaunoy & Iklody        Expires April 18, 2018                 [Page 2]
 
-Internet-Draft   PMF - Programming Methodology Framework  September 2017
+Internet-Draft   PMF - Programming Methodology Framework    October 2017
 
+
+                    +----------+
+                    |          |
+                    |   idea   <------+
+                    |          |      |
+                    +----+-----+      |
+                         |            |
+                         |            |
+                    +----v-----+      |
+                    |          |      | it doesn't work
+                    |   code   |      |
+                    |          |      |
+                    +----+-----+      |
+                         |            |
+                         |            |
+                    +----v-----+      |
+                    |          |      |
+                    |  release +------+
+                    |          |
+                    +----------+
 
 1.1.  Management and PMF methodology
 
@@ -140,6 +160,16 @@ Internet-Draft   PMF - Programming Methodology Framework  September 2017
    programming and this also includes the act of simplifying or removing
    code to reduce the attack surface.
 
+
+
+
+
+
+Dulaunoy & Iklody        Expires April 18, 2018                 [Page 3]
+
+Internet-Draft   PMF - Programming Methodology Framework    October 2017
+
+
 3.  Acknowledgements
 
    The authors wish to thank all the programmers who program.
@@ -163,19 +193,12 @@ Internet-Draft   PMF - Programming Methodology Framework  September 2017
               James, , "The Tao of Programming",
               <http://www.mit.edu/~xela/tao.html>.
 
-
-
-Dulaunoy & Iklody        Expires March 31, 2018                 [Page 3]
-
-Internet-Draft   PMF - Programming Methodology Framework  September 2017
-
-
 Authors' Addresses
 
    Alexandre Dulaunoy
    Computer Incident Response Center Luxembourg
    16, bd d'Avranches
-   Luxembourg  L-1611
+   Luxembourg  L-1160
    Luxembourg
 
    Phone: +352 247 88444
@@ -185,7 +208,7 @@ Authors' Addresses
    Andras Iklody
    Computer Incident Response Center Luxembourg
    16, bd d'Avranches
-   Luxembourg  L-1611
+   Luxembourg  L-1160
    Luxembourg
 
    Phone: +352 247 88444
@@ -198,27 +221,4 @@ Authors' Addresses
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Dulaunoy & Iklody        Expires March 31, 2018                 [Page 4]
+Dulaunoy & Iklody        Expires April 18, 2018                 [Page 4]

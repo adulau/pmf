@@ -5,7 +5,7 @@
 % ipr= "trust200902"
 % area = "Security"
 %
-% date = 2017-09-27T00:00:00Z
+% date = 2017-10-15T00:00:00Z
 %
 % [[author]]
 % initials="A."
@@ -19,7 +19,7 @@
 %   [author.address.postal]
 %   street = "16, bd d'Avranches"
 %   city = "Luxembourg"
-%   code = "L-1611"
+%   code = "L-1160"
 %   country = "Luxembourg"
 % [[author]]
 % initials="A."
@@ -31,12 +31,10 @@
 %  email = "andras.iklody@circl.lu"
 %  phone = "+352 247 88444"
 %   [author.address.postal]
-%   street = " 16, bd d'Avranches"
+%   street = "16, bd d'Avranches"
 %   city = "Luxembourg"
-%   code = "L-1611"
+%   code = "L-1160"
 %   country = "Luxembourg"
-
-
 
 .# Abstract
 
@@ -61,6 +59,30 @@ The overall concept of PMF methodology follows the following process:
 - Orchestrate your testing and integration processes using pragmatic programming.
 
 Repeat the above process until the software is delivered.
+
+A simplified overview of the process can be described as follow:
+
+~~~~~ ascii-art
++----------+
+|          |
+|   idea   <------+
+|          |      |
++----+-----+      |
+     |            |
+     |            |
++----v-----+      |
+|          |      | it doesn't work
+|   code   |      |
+|          |      |
++----+-----+      |
+     |            |
+     |            |
++----v-----+      |
+|          |      |
+|  release +------+
+|          |
++----------+
+~~~~~
 
 ## Management and PMF methodology
 
@@ -102,16 +124,5 @@ The authors wish to thank all the programmers who program.
    <date></date>
   </front>
 </reference>
-
-
-
-<reference anchor='JSON-SCHEMA' target='https://tools.ietf.org/html/draft-wright-json-schema'>
-  <front>
-    <title>JSON Schema: A Media Type for Describing JSON Documents</title>
-    <author initials='' surname='' fullname='Austin Wright'></author>
-    <date year="2016"></date>
-  </front>
-</reference>
-
 
 {backmatter}

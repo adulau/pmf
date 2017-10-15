@@ -18,7 +18,7 @@
 <postal>
 <street>16, bd d'Avranches</street>
 <city>Luxembourg</city>
-<code>L-1611</code>
+<code>L-1160</code>
 <country>Luxembourg</country>
 <region></region>
 </postal>
@@ -31,9 +31,9 @@
 <organization abbrev="CIRCL">Computer Incident Response Center Luxembourg</organization>
 <address>
 <postal>
-<street> 16, bd d'Avranches</street>
+<street>16, bd d'Avranches</street>
 <city>Luxembourg</city>
-<code>L-1611</code>
+<code>L-1160</code>
 <country>Luxembourg</country>
 <region></region>
 </postal>
@@ -42,7 +42,7 @@
 <uri></uri>
 </address>
 </author>
-<date year="2017" month="September" day="27"/>
+<date year="2017" month="October" day="15"/>
 
 <area>Security</area>
 <workgroup></workgroup>
@@ -78,6 +78,30 @@ to official engineering or project documents describing one of the most used sof
 </t>
 <t>Repeat the above process until the software is delivered.
 </t>
+<t>A simplified overview of the process can be described as follow:
+</t>
+
+<figure align="center"><artwork align="center" type="ascii-art">
++----------+
+|          |
+|   idea   &lt;------+
+|          |      |
++----+-----+      |
+     |            |
+     |            |
++----v-----+      |
+|          |      | it doesn't work
+|   code   |      |
+|          |      |
++----+-----+      |
+     |            |
+     |            |
++----v-----+      |
+|          |      |
+|  release +------+
+|          |
++----------+
+</artwork></figure>
 
 <section anchor="management-and-pmf-methodology" title="Management and PMF methodology">
 <t>A simple management process is a required of the PMF methodology.
