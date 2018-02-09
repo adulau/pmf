@@ -1,4 +1,4 @@
-# PMF Metholody
+# PMF Methodology
 
 This document describes the Programming Methodology Framework also
 known under the PMF methodology.  The methodology is based on [the
