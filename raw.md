@@ -40,7 +40,7 @@
 .# Abstract
 
 This document describes the Programming Methodology Framework also known under the PMF methodology. The methodology is based on the manifesto written by Zed A. Shaw [@?PROGRAMMING-MF-MANIFESTO] which
-describes a natural approach to software engineering with a strong focus on the act of programming. The PM methodology uses a soft naming to allow for a non-partisan reference
+describes a natural approach to software engineering with a strong focus on the act of programming. The PMF methodology uses a soft naming to allow for a non-partisan reference
 to official engineering or project documents describing one of the most used software engineering methodologies.
 
 {mainmatter}
@@ -51,7 +51,7 @@ In 2011, Zed A. Shaw published a blog post which describes:
 
 {align="left"} I think I'm going to create the ultimate software development methodology. It'll be revolutionary compared to others because it will focus on the one thing that gets software done. Its entire focus will be this one, glorious, completely useful activity for writing software. It's name even embodies the perfection of this programming methodology.
 
-The programming methodology was published as a manifesto later [@?PROGRAMMING-MF-MANIFESTO]. The manifesto clearly describes the focus on programming to avoid the surrounding management overhead and pivot towards the delivery of the software. The [@?THE-TAO-OF-PROGRAMMING] describes similar methodologies which strongly focus on coding, scripting and programming.
+The PMF methodology was published as a manifesto later [@?PROGRAMMING-MF-MANIFESTO]. The manifesto clearly describes the focus on programming to avoid the surrounding management overhead and pivot towards the delivery of the software. The [@?THE-TAO-OF-PROGRAMMING] describes similar methodologies which strongly focus on coding, scripting and programming.
 
 The overall concept of PMF methodology follows the following process:
 
@@ -87,7 +87,7 @@ A simplified overview of the process can be described as follow:
 
 ## Management and PMF methodology
 
-A simple management process is a required of the PMF methodology.
+A simple management process is a requirement of the PMF methodology.
 The management process is meant to be complementary instead of interfering with
 the programming aspect and solely serves to support the PMF methodology.
 
