@@ -373,24 +373,24 @@
   /*]]>*/
   </style>
 
-  <link href="#rfc.toc" rel="Contents"/>
-<link href="#rfc.section.1" rel="Chapter" title="1 Introduction"/>
-<link href="#rfc.section.1.1" rel="Chapter" title="1.1 Management and PMF methodology"/>
-<link href="#rfc.section.1.2" rel="Chapter" title="1.2 Conventions and Terminology"/>
-<link href="#rfc.section.2" rel="Chapter" title="2 Security Considerations"/>
-<link href="#rfc.section.3" rel="Chapter" title="3 Acknowledgements"/>
-<link href="#rfc.references" rel="Chapter" title="4 References"/>
-<link href="#rfc.references.1" rel="Chapter" title="4.1 Normative References"/>
-<link href="#rfc.references.2" rel="Chapter" title="4.2 Informative References"/>
-<link href="#rfc.authors" rel="Chapter"/>
+  <link href="#rfc.toc" rel="Contents">
+<link href="#rfc.section.1" rel="Chapter" title="1 Introduction">
+<link href="#rfc.section.1.1" rel="Chapter" title="1.1 Management and PMF methodology">
+<link href="#rfc.section.1.2" rel="Chapter" title="1.2 Conventions and Terminology">
+<link href="#rfc.section.2" rel="Chapter" title="2 Security Considerations">
+<link href="#rfc.section.3" rel="Chapter" title="3 Acknowledgements">
+<link href="#rfc.references" rel="Chapter" title="4 References">
+<link href="#rfc.references.1" rel="Chapter" title="4.1 Normative References">
+<link href="#rfc.references.2" rel="Chapter" title="4.2 Informative References">
+<link href="#rfc.authors" rel="Chapter">
 
 
-  <meta name="generator" content="xml2rfc version 2.5.1 - http://tools.ietf.org/tools/xml2rfc" />
+  <meta name="generator" content="xml2rfc version 2.9.6 - https://tools.ietf.org/tools/xml2rfc" />
   <link rel="schema.dct" href="http://purl.org/dc/terms/" />
 
   <meta name="dct.creator" content="Dulaunoy, A. and A. Iklody" />
   <meta name="dct.identifier" content="urn:ietf:id:draft-dulaunoy-programming-methodology-framework" />
-  <meta name="dct.issued" scheme="ISO8601" content="2017-10-15" />
+  <meta name="dct.issued" scheme="ISO8601" content="2019-04-11" />
   <meta name="dct.abstract" content="This document describes the Programming Methodology Framework also known under the PMF methodology. The methodology is based on the manifesto written by Zed A. Shaw " />
   <meta name="description" content="This document describes the Programming Methodology Framework also known under the PMF methodology. The methodology is based on the manifesto written by Zed A. Shaw " />
 
@@ -402,20 +402,20 @@
     <tbody>
     
     	<tr>
-  <td class="left">Network Working Group</td>
-  <td class="right">A. Dulaunoy</td>
+<td class="left">Network Working Group</td>
+<td class="right">A. Dulaunoy</td>
 </tr>
 <tr>
-  <td class="left">Internet-Draft</td>
-  <td class="right">A. Iklody</td>
+<td class="left">Internet-Draft</td>
+<td class="right">A. Iklody</td>
 </tr>
 <tr>
-  <td class="left">Intended status: Informational</td>
-  <td class="right">CIRCL</td>
+<td class="left">Intended status: Informational</td>
+<td class="right">CIRCL</td>
 </tr>
 <tr>
-  <td class="left">Expires: April 18, 2018</td>
-  <td class="right">October 15, 2017</td>
+<td class="left">Expires: October 13, 2019</td>
+<td class="right">April 11, 2019</td>
 </tr>
 
     	
@@ -425,52 +425,57 @@
   <p class="title">Programming Methodology Framework aka PMF<br />
   <span class="filename">draft-dulaunoy-programming-methodology-framework</span></p>
   
-  <h1 id="rfc.abstract">
-  <a href="#rfc.abstract">Abstract</a>
-</h1>
-<p>This document describes the Programming Methodology Framework also known under the PMF methodology. The methodology is based on the manifesto written by Zed A. Shaw <a href="#PROGRAMMING-MF-MANIFESTO">[PROGRAMMING-MF-MANIFESTO]</a> which describes a natural approach to software engineering with a strong focus on the act of programming. The PM methodology uses a soft naming to allow for a non-partisan reference to official engineering or project documents describing one of the most used software engineering methodologies.  </p>
-<h1 id="rfc.status">
-  <a href="#rfc.status">Status of This Memo</a>
-</h1>
+  <h1 id="rfc.abstract"><a href="#rfc.abstract">Abstract</a></h1>
+<p>This document describes the Programming Methodology Framework also known under the PMF methodology. The methodology is based on the manifesto written by Zed A. Shaw <a href="#PROGRAMMING-MF-MANIFESTO" class="xref">[PROGRAMMING-MF-MANIFESTO]</a> which describes a natural approach to software engineering with a strong focus on the act of programming. The PMF methodology uses a soft naming to allow for a non-partisan reference to official engineering or project documents describing one of the most used software engineering methodologies.  </p>
+<h1 id="rfc.status"><a href="#rfc.status">Status of This Memo</a></h1>
 <p>This Internet-Draft is submitted in full conformance with the provisions of BCP 78 and BCP 79.</p>
-<p>Internet-Drafts are working documents of the Internet Engineering Task Force (IETF).  Note that other groups may also distribute working documents as Internet-Drafts.  The list of current Internet-Drafts is at http://datatracker.ietf.org/drafts/current/.</p>
+<p>Internet-Drafts are working documents of the Internet Engineering Task Force (IETF).  Note that other groups may also distribute working documents as Internet-Drafts.  The list of current Internet-Drafts is at https://datatracker.ietf.org/drafts/current/.</p>
 <p>Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time.  It is inappropriate to use Internet-Drafts as reference material or to cite them other than as "work in progress."</p>
-<p>This Internet-Draft will expire on April 18, 2018.</p>
-<h1 id="rfc.copyrightnotice">
-  <a href="#rfc.copyrightnotice">Copyright Notice</a>
-</h1>
-<p>Copyright (c) 2017 IETF Trust and the persons identified as the document authors.  All rights reserved.</p>
-<p>This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (http://trustee.ietf.org/license-info) in effect on the date of publication of this document.  Please review these documents carefully, as they describe your rights and restrictions with respect to this document.  Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the Simplified BSD License.</p>
+<p>This Internet-Draft will expire on October 13, 2019.</p>
+<h1 id="rfc.copyrightnotice"><a href="#rfc.copyrightnotice">Copyright Notice</a></h1>
+<p>Copyright (c) 2019 IETF Trust and the persons identified as the document authors.  All rights reserved.</p>
+<p>This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (https://trustee.ietf.org/license-info) in effect on the date of publication of this document.  Please review these documents carefully, as they describe your rights and restrictions with respect to this document.  Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the Simplified BSD License.</p>
 
   
   <hr class="noprint" />
   <h1 class="np" id="rfc.toc"><a href="#rfc.toc">Table of Contents</a></h1>
   <ul class="toc">
 
-  	<li>1.   <a href="#rfc.section.1">Introduction</a></li>
-<ul><li>1.1.   <a href="#rfc.section.1.1">Management and PMF methodology</a></li>
-<li>1.2.   <a href="#rfc.section.1.2">Conventions and Terminology</a></li>
-</ul><li>2.   <a href="#rfc.section.2">Security Considerations</a></li>
-<li>3.   <a href="#rfc.section.3">Acknowledgements</a></li>
-<li>4.   <a href="#rfc.references">References</a></li>
-<ul><li>4.1.   <a href="#rfc.references.1">Normative References</a></li>
-<li>4.2.   <a href="#rfc.references.2">Informative References</a></li>
-</ul><li><a href="#rfc.authors">Authors' Addresses</a></li>
+  	<li>1.   <a href="#rfc.section.1">Introduction</a>
+</li>
+<ul><li>1.1.   <a href="#rfc.section.1.1">Management and PMF methodology</a>
+</li>
+<li>1.2.   <a href="#rfc.section.1.2">Conventions and Terminology</a>
+</li>
+</ul><li>2.   <a href="#rfc.section.2">Security Considerations</a>
+</li>
+<li>3.   <a href="#rfc.section.3">Acknowledgements</a>
+</li>
+<li>4.   <a href="#rfc.references">References</a>
+</li>
+<ul><li>4.1.   <a href="#rfc.references.1">Normative References</a>
+</li>
+<li>4.2.   <a href="#rfc.references.2">Informative References</a>
+</li>
+</ul><li><a href="#rfc.authors">Authors' Addresses</a>
+</li>
 
 
   </ul>
 
-  <h1 id="rfc.section.1"><a href="#rfc.section.1">1.</a> <a href="#introduction" id="introduction">Introduction</a></h1>
+  <h1 id="rfc.section.1">
+<a href="#rfc.section.1">1.</a> <a href="#introduction" id="introduction">Introduction</a>
+</h1>
 <p id="rfc.section.1.p.1">In 2011, Zed A. Shaw published a blog post which describes: </p>
 <p id="rfc.section.1.p.2">I think I'm going to create the ultimate software development methodology. It'll be revolutionary compared to others because it will focus on the one thing that gets software done. Its entire focus will be this one, glorious, completely useful activity for writing software. It's name even embodies the perfection of this programming methodology.  </p>
-<p id="rfc.section.1.p.3">The programming methodology was published as a manifesto later <a href="#PROGRAMMING-MF-MANIFESTO">[PROGRAMMING-MF-MANIFESTO]</a>. The manifesto clearly describes the focus on programming to avoid the surrounding management overhead and pivot towards the delivery of the software. The <a href="#THE-TAO-OF-PROGRAMMING">[THE-TAO-OF-PROGRAMMING]</a> describes similar methodologies which strongly focus on coding, scripting and programming.  </p>
+<p id="rfc.section.1.p.3">The PMF methodology was published as a manifesto later <a href="#PROGRAMMING-MF-MANIFESTO" class="xref">[PROGRAMMING-MF-MANIFESTO]</a>. The manifesto clearly describes the focus on programming to avoid the surrounding management overhead and pivot towards the delivery of the software. The <a href="#THE-TAO-OF-PROGRAMMING" class="xref">[THE-TAO-OF-PROGRAMMING]</a> describes similar methodologies which strongly focus on coding, scripting and programming.  </p>
 <p id="rfc.section.1.p.4">The overall concept of PMF methodology follows the following process: </p>
-<p/>
+<p></p>
 
 <ul>
-  <li>Compose a list of features to be implemented and use an iterative programming process.</li>
-  <li>Enhance said features using trial and error programming.</li>
-  <li>Orchestrate your testing and integration processes using pragmatic programming.</li>
+<li>Compose a list of features to be implemented and use an iterative programming process.</li>
+<li>Enhance said features using trial and error programming.</li>
+<li>Orchestrate your testing and integration processes using pragmatic programming.</li>
 </ul>
 
 <p> </p>
@@ -497,55 +502,55 @@
 |          |
 +----------+
 </pre>
-<h1 id="rfc.section.1.1"><a href="#rfc.section.1.1">1.1.</a> <a href="#management-and-pmf-methodology" id="management-and-pmf-methodology">Management and PMF methodology</a></h1>
-<p id="rfc.section.1.1.p.1">A simple management process is a required of the PMF methodology.  The management process is meant to be complementary instead of interfering with the programming aspect and solely serves to support the PMF methodology.  </p>
-<p/>
+<h1 id="rfc.section.1.1">
+<a href="#rfc.section.1.1">1.1.</a> <a href="#management-and-pmf-methodology" id="management-and-pmf-methodology">Management and PMF methodology</a>
+</h1>
+<p id="rfc.section.1.1.p.1">A simple management process is a requirement of the PMF methodology.  The management process is meant to be complementary instead of interfering with the programming aspect and solely serves to support the PMF methodology.  </p>
+<p></p>
 
 <ul>
-  <li>Collect requirements of the users/customers.</li>
-  <li>Provide programmers with the desired requirements.</li>
-  <li>Review whether the software to be delivered matches the requirements.</li>
+<li>Collect requirements of the users/customers.</li>
+<li>Provide programmers with the desired requirements.</li>
+<li>Review whether the software to be delivered matches the requirements.</li>
 </ul>
 
 <p> </p>
-<h1 id="rfc.section.1.2"><a href="#rfc.section.1.2">1.2.</a> <a href="#conventions-and-terminology" id="conventions-and-terminology">Conventions and Terminology</a></h1>
-<p id="rfc.section.1.2.p.1">The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119 <a href="#RFC2119">[RFC2119]</a>.  </p>
-<h1 id="rfc.section.2"><a href="#rfc.section.2">2.</a> <a href="#security-considerations" id="security-considerations">Security Considerations</a></h1>
-<p id="rfc.section.2.p.1">Secure and defensive programming can only come by practicing programming and this also includes the act of simplifying or removing code to reduce the attack surface.  </p>
-<h1 id="rfc.section.3"><a href="#rfc.section.3">3.</a> <a href="#acknowledgements" id="acknowledgements">Acknowledgements</a></h1>
-<p id="rfc.section.3.p.1">The authors wish to thank all the programmers who program.  </p>
-<h1 id="rfc.references"><a href="#rfc.references">4.</a> References</h1>
-<h1 id="rfc.references.1"><a href="#rfc.references.1">4.1.</a> Normative References</h1>
-<table>
-  <tbody>
-    <tr>
-      <td class="reference">
-        <b id="RFC2119">[RFC2119]</b>
-      </td>
-      <td class="top"><a>Bradner, S.</a>, "<a href="http://tools.ietf.org/html/rfc2119">Key words for use in RFCs to Indicate Requirement Levels</a>", BCP 14, RFC 2119, DOI 10.17487/RFC2119, March 1997.</td>
-    </tr>
-  </tbody>
-</table>
-<h1 id="rfc.references.2"><a href="#rfc.references.2">4.2.</a> Informative References</h1>
-<table>
-  <tbody>
-    <tr>
-      <td class="reference">
-        <b id="PROGRAMMING-MF-MANIFESTO">[PROGRAMMING-MF-MANIFESTO]</b>
-      </td>
-      <td class="top"><a>Shaw, </a>, "<a href="http://programming-motherfucker.com">Programming Motherfucker, do you speak it?</a>"</td>
-    </tr>
-    <tr>
-      <td class="reference">
-        <b id="THE-TAO-OF-PROGRAMMING">[THE-TAO-OF-PROGRAMMING]</b>
-      </td>
-      <td class="top"><a>James, </a>, "<a href="http://www.mit.edu/~xela/tao.html">The Tao of Programming</a>"</td>
-    </tr>
-  </tbody>
-</table>
-<h1 id="rfc.authors">
-  <a href="#rfc.authors">Authors' Addresses</a>
+<h1 id="rfc.section.1.2">
+<a href="#rfc.section.1.2">1.2.</a> <a href="#conventions-and-terminology" id="conventions-and-terminology">Conventions and Terminology</a>
 </h1>
+<p id="rfc.section.1.2.p.1">The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119 <a href="#RFC2119" class="xref">[RFC2119]</a>.  </p>
+<h1 id="rfc.section.2">
+<a href="#rfc.section.2">2.</a> <a href="#security-considerations" id="security-considerations">Security Considerations</a>
+</h1>
+<p id="rfc.section.2.p.1">Secure and defensive programming can only come by practicing programming and this also includes the act of simplifying or removing code to reduce the attack surface.  </p>
+<h1 id="rfc.section.3">
+<a href="#rfc.section.3">3.</a> <a href="#acknowledgements" id="acknowledgements">Acknowledgements</a>
+</h1>
+<p id="rfc.section.3.p.1">The authors wish to thank all the programmers who program.  </p>
+<h1 id="rfc.references">
+<a href="#rfc.references">4.</a> References</h1>
+<h1 id="rfc.references.1">
+<a href="#rfc.references.1">4.1.</a> Normative References</h1>
+<table><tbody><tr>
+<td class="reference"><b id="RFC2119">[RFC2119]</b></td>
+<td class="top">
+<a>Bradner, S.</a>, "<a href="https://tools.ietf.org/html/rfc2119">Key words for use in RFCs to Indicate Requirement Levels</a>", BCP 14, RFC 2119, DOI 10.17487/RFC2119, March 1997.</td>
+</tr></tbody></table>
+<h1 id="rfc.references.2">
+<a href="#rfc.references.2">4.2.</a> Informative References</h1>
+<table><tbody>
+<tr>
+<td class="reference"><b id="PROGRAMMING-MF-MANIFESTO">[PROGRAMMING-MF-MANIFESTO]</b></td>
+<td class="top">
+<a>Shaw</a>, "<a href="http://programming-motherfucker.com">Programming Motherfucker, do you speak it?</a>"</td>
+</tr>
+<tr>
+<td class="reference"><b id="THE-TAO-OF-PROGRAMMING">[THE-TAO-OF-PROGRAMMING]</b></td>
+<td class="top">
+<a>James</a>, "<a href="http://www.mit.edu/~xela/tao.html">The Tao of Programming</a>"</td>
+</tr>
+</tbody></table>
+<h1 id="rfc.authors"><a href="#rfc.authors">Authors' Addresses</a></h1>
 <div class="avoidbreak">
   <address class="vcard">
 	<span class="vcardline">

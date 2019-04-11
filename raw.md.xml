@@ -42,7 +42,7 @@
 <uri></uri>
 </address>
 </author>
-<date year="2017" month="October" day="15"/>
+<date year="2019" month="April" day="11"/>
 
 <area>Internet</area>
 <workgroup></workgroup>
@@ -54,7 +54,7 @@
 
 <abstract>
 <t>This document describes the Programming Methodology Framework also known under the PMF methodology. The methodology is based on the manifesto written by Zed A. Shaw <xref target="PROGRAMMING-MF-MANIFESTO"/> which
-describes a natural approach to software engineering with a strong focus on the act of programming. The PM methodology uses a soft naming to allow for a non-partisan reference
+describes a natural approach to software engineering with a strong focus on the act of programming. The PMF methodology uses a soft naming to allow for a non-partisan reference
 to official engineering or project documents describing one of the most used software engineering methodologies.
 </t>
 </abstract>
@@ -69,7 +69,7 @@ to official engineering or project documents describing one of the most used sof
 </t>
 <t>I think I'm going to create the ultimate software development methodology. It'll be revolutionary compared to others because it will focus on the one thing that gets software done. Its entire focus will be this one, glorious, completely useful activity for writing software. It's name even embodies the perfection of this programming methodology.
 </t>
-<t>The programming methodology was published as a manifesto later <xref target="PROGRAMMING-MF-MANIFESTO"/>. The manifesto clearly describes the focus on programming to avoid the surrounding management overhead and pivot towards the delivery of the software. The <xref target="THE-TAO-OF-PROGRAMMING"/> describes similar methodologies which strongly focus on coding, scripting and programming.
+<t>The PMF methodology was published as a manifesto later <xref target="PROGRAMMING-MF-MANIFESTO"/>. The manifesto clearly describes the focus on programming to avoid the surrounding management overhead and pivot towards the delivery of the software. The <xref target="THE-TAO-OF-PROGRAMMING"/> describes similar methodologies which strongly focus on coding, scripting and programming.
 </t>
 <t>The overall concept of PMF methodology follows the following process:
 </t>
@@ -108,7 +108,7 @@ to official engineering or project documents describing one of the most used sof
 </artwork></figure>
 
 <section anchor="management-and-pmf-methodology" title="Management and PMF methodology">
-<t>A simple management process is a required of the PMF methodology.
+<t>A simple management process is a requirement of the PMF methodology.
 The management process is meant to be complementary instead of interfering with
 the programming aspect and solely serves to support the PMF methodology.
 </t>

@@ -1,6 +1,6 @@
 MMARK:=/home/adulau/git/mmark/mmark/mmark -xml2 -page
 
-docs = $(wildcard *.md)
+docs = $(wildcard raw.md)
 
 all: $(docs)
 		$(MMARK) $< > $<.xml
