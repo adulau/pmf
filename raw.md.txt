@@ -5,11 +5,11 @@
 Network Working Group                                        A. Dulaunoy
 Internet-Draft                                                 A. Iklody
 Intended status: Informational                                     CIRCL
-Expires: October 13, 2019                                 April 11, 2019
+Expires: 4 April 2022                                     1 October 2021
 
 
                Programming Methodology Framework aka PMF
-            draft-dulaunoy-programming-methodology-framework
+                                draft-01
 
 Abstract
 
@@ -37,30 +37,29 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on October 13, 2019.
+   This Internet-Draft will expire on 4 April 2022.
 
 Copyright Notice
 
-   Copyright (c) 2019 IETF Trust and the persons identified as the
+   Copyright (c) 2021 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
-   Provisions Relating to IETF Documents
-   (https://trustee.ietf.org/license-info) in effect on the date of
-   publication of this document.  Please review these documents
-   carefully, as they describe your rights and restrictions with respect
-   to this document.  Code Components extracted from this document must
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Simplified BSD License text
 
 
 
-Dulaunoy & Iklody       Expires October 13, 2019                [Page 1]
+Dulaunoy & Iklody         Expires 4 April 2022                  [Page 1]
 
-Internet-Draft   PMF - Programming Methodology Framework      April 2019
+Internet-Draft   PMF - Programming Methodology Framework    October 2021
 
 
-   include Simplified BSD License text as described in Section 4.e of
-   the Trust Legal Provisions and are provided without warranty as
-   described in the Simplified BSD License.
+   as described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Simplified BSD License.
 
 Table of Contents
 
@@ -69,20 +68,19 @@ Table of Contents
      1.2.  Conventions and Terminology . . . . . . . . . . . . . . .   3
    2.  Security Considerations . . . . . . . . . . . . . . . . . . .   3
    3.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   4
-   4.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   4
-     4.1.  Normative References  . . . . . . . . . . . . . . . . . .   4
-     4.2.  Informative References  . . . . . . . . . . . . . . . . .   4
+   4.  Normative References  . . . . . . . . . . . . . . . . . . . .   4
+   5.  Informative References  . . . . . . . . . . . . . . . . . . .   4
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   4
 
 1.  Introduction
 
    In 2011, Zed A.  Shaw published a blog post which describes:
 
-   I think I'm going to create the ultimate software development
-   methodology.  It'll be revolutionary compared to others because it
-   will focus on the one thing that gets software done.  Its entire
-   focus will be this one, glorious, completely useful activity for
-   writing software.  It's name even embodies the perfection of this
+   {align="left"} I think I'm going to create the ultimate software
+   development methodology.  It'll be revolutionary compared to others
+   because it will focus on the one thing that gets software done.  Its
+   entire focus will be this one, glorious, completely useful activity
+   for writing software.  It's name even embodies the perfection of this
    programming methodology.
 
    The PMF methodology was published as a manifesto later
@@ -94,12 +92,12 @@ Table of Contents
 
    The overall concept of PMF methodology follows the following process:
 
-   o  Compose a list of features to be implemented and use an iterative
+   *  Compose a list of features to be implemented and use an iterative
       programming process.
 
-   o  Enhance said features using trial and error programming.
+   *  Enhance said features using trial and error programming.
 
-   o  Orchestrate your testing and integration processes using pragmatic
+   *  Orchestrate your testing and integration processes using pragmatic
       programming.
 
    Repeat the above process until the software is delivered.
@@ -109,30 +107,35 @@ Table of Contents
 
 
 
-Dulaunoy & Iklody       Expires October 13, 2019                [Page 2]
+
+
+Dulaunoy & Iklody         Expires 4 April 2022                  [Page 2]
 
-Internet-Draft   PMF - Programming Methodology Framework      April 2019
+Internet-Draft   PMF - Programming Methodology Framework    October 2021
 
 
-                    +----------+
-                    |          |
-                    |   idea   <------+
-                    |          |      |
-                    +----+-----+      |
-                         |            |
-                         |            |
-                    +----v-----+      |
-                    |          |      | it doesn't work
-                    |   code   |      |
-                    |          |      |
-                    +----+-----+      |
-                         |            |
-                         |            |
-                    +----v-----+      |
-                    |          |      |
-                    |  release +------+
-                    |          |
-                    +----------+
+   +----------+
+   |          |
+   |   idea   <------+
+   |          |      |
+   +----+-----+      |
+        |            |
+        |            |
+   +----v-----+      |
+   |          |      | it doesn't work
+   |   code   |      |
+   |          |      |
+   +----+-----+      |
+        |            |
+        |            |
+   +----v-----+      |
+   |          |      |
+   |  release +------+
+   |          |
+   +----------+
+
+   The PMF methodology covers open source software along with
+   proprietary software and can be used interchangeably in both.
 
 1.1.  Management and PMF methodology
 
@@ -141,11 +144,11 @@ Internet-Draft   PMF - Programming Methodology Framework      April 2019
    interfering with the programming aspect and solely serves to support
    the PMF methodology.
 
-   o  Collect requirements of the users/customers.
+   *  Collect requirements of the users/customers.
 
-   o  Provide programmers with the desired requirements.
+   *  Provide programmers with the desired requirements.
 
-   o  Review whether the software to be delivered matches the
+   *  Review whether the software to be delivered matches the
       requirements.
 
 1.2.  Conventions and Terminology
@@ -162,53 +165,48 @@ Internet-Draft   PMF - Programming Methodology Framework      April 2019
 
 
 
-
-
-
-Dulaunoy & Iklody       Expires October 13, 2019                [Page 3]
+Dulaunoy & Iklody         Expires 4 April 2022                  [Page 3]
 
-Internet-Draft   PMF - Programming Methodology Framework      April 2019
+Internet-Draft   PMF - Programming Methodology Framework    October 2021
 
 
 3.  Acknowledgements
 
    The authors wish to thank all the programmers who program.
 
-4.  References
-
-4.1.  Normative References
+4.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
               DOI 10.17487/RFC2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
 
-4.2.  Informative References
+5.  Informative References
 
    [PROGRAMMING-MF-MANIFESTO]
-              Shaw, "Programming Motherfucker, do you speak it?",
-              <http://programming-motherfucker.com>.
+              Shaw, Z. A., "Programming Motherfucker, do you speak it?",
+              , October 2021, <http://programming-motherfucker.com>.
 
    [THE-TAO-OF-PROGRAMMING]
-              James, "The Tao of Programming",
+              James, G., "The Tao of Programming", , October 2021,
               <http://www.mit.edu/~xela/tao.html>.
 
 Authors' Addresses
 
-   Alexandre Dulaunoy
    Computer Incident Response Center Luxembourg
+   Alexandre Dulaunoy
    16, bd d'Avranches
-   Luxembourg  L-1160
+   L-L-1160 Luxembourg
    Luxembourg
 
    Phone: +352 247 88444
    Email: alexandre.dulaunoy@circl.lu
 
 
-   Andras Iklody
    Computer Incident Response Center Luxembourg
+   Andras Iklody
    16, bd d'Avranches
-   Luxembourg  L-1160
+   L-L-1160 Luxembourg
    Luxembourg
 
    Phone: +352 247 88444
@@ -221,4 +219,6 @@ Authors' Addresses
 
 
 
-Dulaunoy & Iklody       Expires October 13, 2019                [Page 4]
+
+
+Dulaunoy & Iklody         Expires 4 April 2022                  [Page 4]

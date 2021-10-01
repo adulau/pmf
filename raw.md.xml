@@ -1,49 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rfc SYSTEM 'rfc2629.dtd' []>
-<rfc ipr="trust200902" category="info" docName="draft-dulaunoy-programming-methodology-framework">
-<?rfc toc="yes"?>
-<?rfc symrefs="yes"?>
-<?rfc sortrefs="yes"?>
-<?rfc compact="yes"?>
-<?rfc subcompact="no"?>
-<?rfc private=""?>
-<?rfc topblock="yes"?>
-<?rfc comments="no"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- name="GENERATOR" content="github.com/mmarkdown/mmark Mmark Markdown Processor - mmark.miek.nl" -->
+<rfc version="3" ipr="trust200902" docName="draft-01" submissionType="IETF" category="info" xml:lang="en" xmlns:xi="http://www.w3.org/2001/XInclude" indexInclude="false" consensus="true">
+
 <front>
-<title abbrev="PMF - Programming Methodology Framework">Programming Methodology Framework aka PMF</title>
-
-<author initials="A." surname="Dulaunoy" fullname="Alexandre Dulaunoy">
-<organization abbrev="CIRCL">Computer Incident Response Center Luxembourg</organization>
-<address>
-<postal>
-<street>16, bd d'Avranches</street>
+<title abbrev="PMF - Programming Methodology Framework">Programming Methodology Framework aka PMF</title><seriesInfo value="draft-01" stream="independent" status="informational" name="Internet-Draft"></seriesInfo>
+<author initials="A." surname="Dulaunoy" fullname="Alexandre Dulaunoy"><organization abbrev="CIRCL">Computer Incident Response Center Luxembourg</organization><address><postal><street>16, bd d'Avranches</street>
 <city>Luxembourg</city>
 <code>L-1160</code>
 <country>Luxembourg</country>
-<region></region>
-</postal>
-<phone>+352 247 88444</phone>
+</postal><phone>+352 247 88444</phone>
 <email>alexandre.dulaunoy@circl.lu</email>
-<uri></uri>
-</address>
-</author>
-<author initials="A." surname="Iklody" fullname="Andras Iklody">
-<organization abbrev="CIRCL">Computer Incident Response Center Luxembourg</organization>
-<address>
-<postal>
-<street>16, bd d'Avranches</street>
+</address></author><author initials="A." surname="Iklody" fullname="Andras Iklody"><organization abbrev="CIRCL">Computer Incident Response Center Luxembourg</organization><address><postal><street>16, bd d'Avranches</street>
 <city>Luxembourg</city>
 <code>L-1160</code>
 <country>Luxembourg</country>
-<region></region>
-</postal>
-<phone>+352 247 88444</phone>
+</postal><phone>+352 247 88444</phone>
 <email>andras.iklody@circl.lu</email>
-<uri></uri>
-</address>
-</author>
-<date year="2019" month="April" day="11"/>
-
+</address></author><date year="2021" month="October" day="1"></date>
 <area>Internet</area>
 <workgroup></workgroup>
 <keyword>software engineering</keyword>
@@ -51,42 +24,31 @@
 <keyword>pmf</keyword>
 <keyword>programming</keyword>
 
-
 <abstract>
-<t>This document describes the Programming Methodology Framework also known under the PMF methodology. The methodology is based on the manifesto written by Zed A. Shaw <xref target="PROGRAMMING-MF-MANIFESTO"/> which
+<t>This document describes the Programming Methodology Framework also known under the PMF methodology. The methodology is based on the manifesto written by Zed A. Shaw <xref target="PROGRAMMING-MF-MANIFESTO"></xref> which
 describes a natural approach to software engineering with a strong focus on the act of programming. The PMF methodology uses a soft naming to allow for a non-partisan reference
-to official engineering or project documents describing one of the most used software engineering methodologies.
-</t>
+to official engineering or project documents describing one of the most used software engineering methodologies.</t>
 </abstract>
-
 
 </front>
 
 <middle>
 
-<section anchor="introduction" title="Introduction">
-<t>In 2011, Zed A. Shaw published a blog post which describes:
-</t>
-<t>I think I'm going to create the ultimate software development methodology. It'll be revolutionary compared to others because it will focus on the one thing that gets software done. Its entire focus will be this one, glorious, completely useful activity for writing software. It's name even embodies the perfection of this programming methodology.
-</t>
-<t>The PMF methodology was published as a manifesto later <xref target="PROGRAMMING-MF-MANIFESTO"/>. The manifesto clearly describes the focus on programming to avoid the surrounding management overhead and pivot towards the delivery of the software. The <xref target="THE-TAO-OF-PROGRAMMING"/> describes similar methodologies which strongly focus on coding, scripting and programming.
-</t>
-<t>The overall concept of PMF methodology follows the following process:
-</t>
-<t>
-<list style="symbols">
-<t>Compose a list of features to be implemented and use an iterative programming process.</t>
-<t>Enhance said features using trial and error programming.</t>
-<t>Orchestrate your testing and integration processes using pragmatic programming.</t>
-</list>
-</t>
-<t>Repeat the above process until the software is delivered.
-</t>
-<t>A simplified overview of the process can be described as follow:
-</t>
+<section anchor="introduction"><name>Introduction</name>
+<t>In 2011, Zed A. Shaw published a blog post which describes:</t>
+<t>{align=&quot;left&quot;} I think I'm going to create the ultimate software development methodology. It'll be revolutionary compared to others because it will focus on the one thing that gets software done. Its entire focus will be this one, glorious, completely useful activity for writing software. It's name even embodies the perfection of this programming methodology.</t>
+<t>The PMF methodology was published as a manifesto later <xref target="PROGRAMMING-MF-MANIFESTO"></xref>. The manifesto clearly describes the focus on programming to avoid the surrounding management overhead and pivot towards the delivery of the software. The <xref target="THE-TAO-OF-PROGRAMMING"></xref> describes similar methodologies which strongly focus on coding, scripting and programming.</t>
+<t>The overall concept of PMF methodology follows the following process:</t>
 
-<figure align="center"><artwork align="center" type="ascii-art">
-+----------+
+<ul>
+<li>Compose a list of features to be implemented and use an iterative programming process.</li>
+<li>Enhance said features using trial and error programming.</li>
+<li>Orchestrate your testing and integration processes using pragmatic programming.</li>
+</ul>
+<t>Repeat the above process until the software is delivered.</t>
+<t>A simplified overview of the process can be described as follow:</t>
+
+<sourcecode type="ascii-art">+----------+
 |          |
 |   idea   &lt;------+
 |          |      |
@@ -105,62 +67,62 @@ to official engineering or project documents describing one of the most used sof
 |  release +------+
 |          |
 +----------+
-</artwork></figure>
+</sourcecode>
+<t>The PMF methodology covers open source software along with proprietary software and can be used interchangeably in both.</t>
 
-<section anchor="management-and-pmf-methodology" title="Management and PMF methodology">
+<section anchor="management-and-pmf-methodology"><name>Management and PMF methodology</name>
 <t>A simple management process is a requirement of the PMF methodology.
 The management process is meant to be complementary instead of interfering with
-the programming aspect and solely serves to support the PMF methodology.
-</t>
-<t>
-<list style="symbols">
-<t>Collect requirements of the users/customers.</t>
-<t>Provide programmers with the desired requirements.</t>
-<t>Review whether the software to be delivered matches the requirements.</t>
-</list>
-</t>
+the programming aspect and solely serves to support the PMF methodology.</t>
+
+<ul>
+<li>Collect requirements of the users/customers.</li>
+<li>Provide programmers with the desired requirements.</li>
+<li>Review whether the software to be delivered matches the requirements.</li>
+</ul>
 </section>
 
-<section anchor="conventions-and-terminology" title="Conventions and Terminology">
-<t>The key words &quot;MUST&quot;, &quot;MUST NOT&quot;, &quot;REQUIRED&quot;, &quot;SHALL&quot;, &quot;SHALL NOT&quot;,
-&quot;SHOULD&quot;, &quot;SHOULD NOT&quot;, &quot;RECOMMENDED&quot;, &quot;MAY&quot;, and &quot;OPTIONAL&quot; in this
-document are to be interpreted as described in RFC 2119 <xref target="RFC2119"/>.
-</t>
+<section anchor="conventions-and-terminology"><name>Conventions and Terminology</name>
+<t>The key words &quot;<bcp14>MUST</bcp14>&quot;, &quot;<bcp14>MUST NOT</bcp14>&quot;, &quot;<bcp14>REQUIRED</bcp14>&quot;, &quot;<bcp14>SHALL</bcp14>&quot;, &quot;<bcp14>SHALL NOT</bcp14>&quot;,
+&quot;<bcp14>SHOULD</bcp14>&quot;, &quot;<bcp14>SHOULD NOT</bcp14>&quot;, &quot;<bcp14>RECOMMENDED</bcp14>&quot;, &quot;<bcp14>MAY</bcp14>&quot;, and &quot;<bcp14>OPTIONAL</bcp14>&quot; in this
+document are to be interpreted as described in RFC 2119 <xref target="RFC2119"></xref>.</t>
 </section>
 </section>
 
-<section anchor="security-considerations" title="Security Considerations">
+<section anchor="security-considerations"><name>Security Considerations</name>
 <t>Secure and defensive programming can only come by practicing programming and this also
-includes the act of simplifying or removing code to reduce the attack surface.
-</t>
+includes the act of simplifying or removing code to reduce the attack surface.</t>
 </section>
 
-<section anchor="acknowledgements" title="Acknowledgements">
-<t>The authors wish to thank all the programmers who program.
-</t>
+<section anchor="acknowledgements"><name>Acknowledgements</name>
+<t>The authors wish to thank all the programmers who program.</t>
 </section>
 
 </middle>
+
 <back>
-<references title="Normative References">
-<?rfc include="https://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.2119.xml"?>
+<references><name>Normative References</name>
+<xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2119.xml"/>
 </references>
-<references title="Informative References">
-<reference anchor='PROGRAMMING-MF-MANIFESTO' target='http://programming-motherfucker.com'>
+<references><name>Informative References</name>
+<reference anchor="PROGRAMMING-MF-MANIFESTO" target="http://programming-motherfucker.com">
   <front>
-   <title>Programming Motherfucker, do you speak it?</title>
-   <author initials='' surname='Shaw' fullname='Zed A. Shaw'></author>
-   <date></date>
+    <title>Programming Motherfucker, do you speak it?</title>
+    <author fullname="Zed A. Shaw" surname="Shaw"></author>
+    <date></date>
   </front>
+  <refcontent></refcontent>
 </reference>
-<reference anchor='THE-TAO-OF-PROGRAMMING' target='http://www.mit.edu/~xela/tao.html'>
+<reference anchor="THE-TAO-OF-PROGRAMMING" target="http://www.mit.edu/~xela/tao.html">
   <front>
-   <title>The Tao of Programming</title>
-   <author initials='' surname='James' fullname='Geoffrey James'></author>
-   <date></date>
+    <title>The Tao of Programming</title>
+    <author fullname="Geoffrey James" surname="James"></author>
+    <date></date>
   </front>
+  <refcontent></refcontent>
 </reference>
 </references>
 
 </back>
+
 </rfc>

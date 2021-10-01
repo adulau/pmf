@@ -1,41 +1,49 @@
-% Title = "Programming Methodology Framework aka PMF"
-% abbrev = "PMF - Programming Methodology Framework"
-% category = "info"
-% docName = "draft-dulaunoy-programming-methodology-framework"
-% ipr= "trust200902"
-% area = "Internet"
-% keyword = ["software engineering", "engineering", "pmf", "programming"]
-%
-% date = 2019-04-11T00:00:00Z
-%
-% [[author]]
-% initials="A."
-% surname="Dulaunoy"
-% fullname="Alexandre Dulaunoy"
-% abbrev="CIRCL"
-% organization = "Computer Incident Response Center Luxembourg"
-%  [author.address]
-%  email = "alexandre.dulaunoy@circl.lu"
-%  phone = "+352 247 88444"
-%   [author.address.postal]
-%   street = "16, bd d'Avranches"
-%   city = "Luxembourg"
-%   code = "L-1160"
-%   country = "Luxembourg"
-% [[author]]
-% initials="A."
-% surname="Iklody"
-% fullname="Andras Iklody"
-% abbrev="CIRCL"
-% organization = "Computer Incident Response Center Luxembourg"
-%  [author.address]
-%  email = "andras.iklody@circl.lu"
-%  phone = "+352 247 88444"
-%   [author.address.postal]
-%   street = "16, bd d'Avranches"
-%   city = "Luxembourg"
-%   code = "L-1160"
-%   country = "Luxembourg"
+%%%
+Title = "Programming Methodology Framework aka PMF"
+abbrev = "PMF - Programming Methodology Framework"
+category = "info"
+docName = "draft-dulaunoy-programming-methodology-framework"
+ipr= "trust200902"
+area = "Internet"
+keyword = ["software engineering", "engineering", "pmf", "programming"]
+
+date = 2021-10-01T00:00:00Z
+
+[seriesInfo]
+name = "Internet-Draft"
+value = "draft-01"
+stream = "independent"
+status = "informational"
+
+[[author]]
+initials="A."
+surname="Dulaunoy"
+fullname="Alexandre Dulaunoy"
+abbrev="CIRCL"
+organization = "Computer Incident Response Center Luxembourg"
+   [author.address]
+  email = "alexandre.dulaunoy@circl.lu"
+  phone = "+352 247 88444"
+   [author.address.postal]
+   street = "16, bd d'Avranches"
+   city = "Luxembourg"
+   code = "L-1160"
+   country = "Luxembourg"
+ [[author]]
+ initials="A."
+ surname="Iklody"
+ fullname="Andras Iklody"
+ abbrev="CIRCL"
+ organization = "Computer Incident Response Center Luxembourg"
+  [author.address]
+  email = "andras.iklody@circl.lu"
+  phone = "+352 247 88444"
+   [author.address.postal]
+   street = "16, bd d'Avranches"
+   city = "Luxembourg"
+   code = "L-1160"
+   country = "Luxembourg"
+%%%
 
 .# Abstract
 
@@ -84,6 +92,9 @@ A simplified overview of the process can be described as follow:
 |          |
 +----------+
 ~~~~~
+
+
+The PMF methodology covers open source software along with proprietary software and can be used interchangeably in both.
 
 ## Management and PMF methodology
 
