@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- name="GENERATOR" content="github.com/mmarkdown/mmark Mmark Markdown Processor - mmark.miek.nl" -->
-<rfc version="3" ipr="trust200902" docName="draft-01" submissionType="IETF" category="info" xml:lang="en" xmlns:xi="http://www.w3.org/2001/XInclude" indexInclude="false" consensus="true">
+<rfc version="3" ipr="trust200902" docName="draft-02" submissionType="independent" category="info" xml:lang="en" xmlns:xi="http://www.w3.org/2001/XInclude" indexInclude="true">
 
 <front>
-<title abbrev="PMF - Programming Methodology Framework">Programming Methodology Framework aka PMF</title><seriesInfo value="draft-01" stream="independent" status="informational" name="Internet-Draft"></seriesInfo>
-<author initials="A." surname="Dulaunoy" fullname="Alexandre Dulaunoy"><organization abbrev="CIRCL">Computer Incident Response Center Luxembourg</organization><address><postal><street>16, bd d'Avranches</street>
+<title abbrev="PMF - Programming Methodology Framework">Programming Methodology Framework aka PMF</title><seriesInfo value="draft-02" stream="independent" status="informational" name="Internet-Draft"></seriesInfo>
+<author initials="A." surname="Dulaunoy" fullname="Alexandre Dulaunoy"><organization abbrev="CIRCL">Computer Incident Response Center Luxembourg</organization><address><postal><street>122, rue Adolphe Fischer</street>
 <city>Luxembourg</city>
-<code>L-1160</code>
+<code>L-1521</code>
 <country>Luxembourg</country>
 </postal><phone>+352 247 88444</phone>
 <email>alexandre.dulaunoy@circl.lu</email>
-</address></author><author initials="A." surname="Iklody" fullname="Andras Iklody"><organization abbrev="CIRCL">Computer Incident Response Center Luxembourg</organization><address><postal><street>16, bd d'Avranches</street>
+</address></author><author initials="A." surname="Iklody" fullname="Andras Iklody"><organization abbrev="CIRCL">Computer Incident Response Center Luxembourg</organization><address><postal><street>122, rue Adolphe Fischer</street>
 <city>Luxembourg</city>
-<code>L-1160</code>
+<code>L-1521</code>
 <country>Luxembourg</country>
 </postal><phone>+352 247 88444</phone>
 <email>andras.iklody@circl.lu</email>
-</address></author><date year="2021" month="October" day="1"></date>
+</address></author><date year="2023" month="February" day="22"></date>
 <area>Internet</area>
 <workgroup></workgroup>
 <keyword>software engineering</keyword>
@@ -40,7 +40,7 @@ to official engineering or project documents describing one of the most used sof
 <t>The PMF methodology was published as a manifesto later <xref target="PROGRAMMING-MF-MANIFESTO"></xref>. The manifesto clearly describes the focus on programming to avoid the surrounding management overhead and pivot towards the delivery of the software. The <xref target="THE-TAO-OF-PROGRAMMING"></xref> describes similar methodologies which strongly focus on coding, scripting and programming.</t>
 <t>The overall concept of PMF methodology follows the following process:</t>
 
-<ul>
+<ul spacing="compact">
 <li>Compose a list of features to be implemented and use an iterative programming process.</li>
 <li>Enhance said features using trial and error programming.</li>
 <li>Orchestrate your testing and integration processes using pragmatic programming.</li>
@@ -75,7 +75,7 @@ to official engineering or project documents describing one of the most used sof
 The management process is meant to be complementary instead of interfering with
 the programming aspect and solely serves to support the PMF methodology.</t>
 
-<ul>
+<ul spacing="compact">
 <li>Collect requirements of the users/customers.</li>
 <li>Provide programmers with the desired requirements.</li>
 <li>Review whether the software to be delivered matches the requirements.</li>
@@ -111,7 +111,6 @@ includes the act of simplifying or removing code to reduce the attack surface.</
     <author fullname="Zed A. Shaw" surname="Shaw"></author>
     <date></date>
   </front>
-  <refcontent></refcontent>
 </reference>
 <reference anchor="THE-TAO-OF-PROGRAMMING" target="http://www.mit.edu/~xela/tao.html">
   <front>
@@ -119,7 +118,6 @@ includes the act of simplifying or removing code to reduce the attack surface.</
     <author fullname="Geoffrey James" surname="James"></author>
     <date></date>
   </front>
-  <refcontent></refcontent>
 </reference>
 </references>
 
