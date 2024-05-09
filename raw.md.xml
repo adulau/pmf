@@ -48,9 +48,9 @@ to official engineering or project documents describing one of the most used sof
 <t>Repeat the above process until the software is delivered.</t>
 <t>A simplified overview of the process can be described as follow:</t>
 
-<sourcecode type="ascii-art">+----------+
+<sourcecode type="ascii-art"><![CDATA[+----------+
 |          |
-|   idea   &lt;------+
+|   idea   <------+
 |          |      |
 +----+-----+      |
      |            |
@@ -67,6 +67,7 @@ to official engineering or project documents describing one of the most used sof
 |  release +------+
 |          |
 +----------+
+]]>
 </sourcecode>
 <t>The PMF methodology covers open source software along with proprietary software and can be used interchangeably in both.</t>
 
@@ -101,8 +102,9 @@ includes the act of simplifying or removing code to reduce the attack surface.</
 </middle>
 
 <back>
+<references><name>References</name>
 <references><name>Normative References</name>
-<xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2119.xml"/>
+<xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.2119.xml"/>
 </references>
 <references><name>Informative References</name>
 <reference anchor="PROGRAMMING-MF-MANIFESTO" target="http://programming-motherfucker.com">
@@ -119,6 +121,7 @@ includes the act of simplifying or removing code to reduce the attack surface.</
     <date></date>
   </front>
 </reference>
+</references>
 </references>
 
 </back>

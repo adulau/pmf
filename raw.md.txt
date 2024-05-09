@@ -65,8 +65,9 @@ Table of Contents
      1.2.  Conventions and Terminology . . . . . . . . . . . . . . .   3
    2.  Security Considerations . . . . . . . . . . . . . . . . . . .   3
    3.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   4
-   4.  Normative References  . . . . . . . . . . . . . . . . . . . .   4
-   5.  Informative References  . . . . . . . . . . . . . . . . . . .   4
+   4.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   4
+     4.1.  Normative References  . . . . . . . . . . . . . . . . . .   4
+     4.2.  Informative References  . . . . . . . . . . . . . . . . .   4
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   4
 
 1.  Introduction
@@ -98,7 +99,6 @@ Table of Contents
    Repeat the above process until the software is delivered.
 
    A simplified overview of the process can be described as follow:
-
 
 
 
@@ -174,14 +174,16 @@ Internet-Draft   PMF - Programming Methodology Framework   February 2023
 
    The authors wish to thank all the programmers who program.
 
-4.  Normative References
+4.  References
+
+4.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
               DOI 10.17487/RFC2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
 
-5.  Informative References
+4.2.  Informative References
 
    [PROGRAMMING-MF-MANIFESTO]
               Shaw, Z. A., "Programming Motherfucker, do you speak it?",
@@ -198,7 +200,6 @@ Authors' Addresses
    122, rue Adolphe Fischer
    L-L-1521 Luxembourg
    Luxembourg
-
    Phone: +352 247 88444
    Email: alexandre.dulaunoy@circl.lu
 
@@ -208,7 +209,6 @@ Authors' Addresses
    122, rue Adolphe Fischer
    L-L-1521 Luxembourg
    Luxembourg
-
    Phone: +352 247 88444
    Email: andras.iklody@circl.lu
 
