@@ -11,4 +11,4 @@ engineering methodologies.
 
 ## Internet-Draft
 
-The [Programming Methodology Framework aka PMF](raw.md.txt) in ASCII format. Published [draft-01](https://www.ietf.org/archive/id/draft-dulaunoy-programming-methodology-framework-01.html)
+The [Programming Methodology Framework aka PMF](raw.md.txt) in ASCII format. Published [draft-02](https://www.ietf.org/archive/id/draft-dulaunoy-programming-methodology-framework-02.html)
