@@ -47,9 +47,9 @@ organization = "Computer Incident Response Center Luxembourg"
 
 .# Abstract
 
-This document describes the Programming Methodology Framework also known under the PMF methodology. The methodology is based on the manifesto written by Zed A. Shaw [@?PROGRAMMING-MF-MANIFESTO] which
-describes a natural approach to software engineering with a strong focus on the act of programming. The PMF methodology uses a soft naming to allow for a non-partisan reference
-to official engineering or project documents describing one of the most used software engineering methodologies.
+This document describes the Programming Methodology Framework, also known as the PMF methodology. The methodology is based on the manifesto written by Zed A. Shaw [@?PROGRAMMING-MF-MANIFESTO], which
+describes a natural approach to software engineering with a strong focus on the act of programming. The PMF methodology uses a neutral name to provide a non-partisan reference
+for official engineering or project documents describing one of the most widely used software engineering methodologies.
 
 {mainmatter}
 
@@ -59,7 +59,7 @@ In 2011, Zed A. Shaw published a blog post which describes:
 
 {align="left"} I think I'm going to create the ultimate software development methodology. It'll be revolutionary compared to others because it will focus on the one thing that gets software done. Its entire focus will be this one, glorious, completely useful activity for writing software. It's name even embodies the perfection of this programming methodology.
 
-The PMF methodology was published as a manifesto later [@?PROGRAMMING-MF-MANIFESTO]. The manifesto clearly describes the focus on programming to avoid the surrounding management overhead and pivot towards the delivery of the software. The [@?THE-TAO-OF-PROGRAMMING] describes similar methodologies which strongly focus on coding, scripting and programming.
+The PMF methodology was later published as a manifesto [@?PROGRAMMING-MF-MANIFESTO]. The manifesto clearly describes the focus on programming as a way to avoid surrounding management overhead and pivot towards software delivery. [@?THE-TAO-OF-PROGRAMMING] describes similar methodologies that strongly focus on coding, scripting, and programming.
 
 The overall concept of PMF methodology follows the following process:
 
@@ -69,7 +69,7 @@ The overall concept of PMF methodology follows the following process:
 
 Repeat the above process until the software is delivered.
 
-A simplified overview of the process can be described as follow:
+A simplified overview of the process can be described as follows:
 
 ~~~~~ ascii-art
 +----------+
@@ -94,13 +94,13 @@ A simplified overview of the process can be described as follow:
 ~~~~~
 
 
-The PMF methodology covers open source software along with proprietary software and can be used interchangeably in both.
+The PMF methodology covers both open source and proprietary software and can be used interchangeably in either context.
 
 ## Management and PMF methodology
 
 A simple management process is a requirement of the PMF methodology.
-The management process is meant to be complementary instead of interfering with
-the programming aspect and solely serves to support the PMF methodology.
+The management process is meant to complement, rather than interfere with,
+the programming aspect, and it serves solely to support the PMF methodology.
 
 - Collect requirements of the users/customers.
 - Provide programmers with the desired requirements.
@@ -114,7 +114,7 @@ document are to be interpreted as described in RFC 2119 [@!RFC2119].
 
 # Security Considerations
 
-Secure and defensive programming can only come by practicing programming and this also
+Secure and defensive programming can only come from practicing programming, and this also
 includes the act of simplifying or removing code to reduce the attack surface.
 
 # Acknowledgements
