@@ -106,6 +106,30 @@ the programming aspect, and it serves solely to support the PMF methodology.
 - Provide programmers with the desired requirements.
 - Review whether the software to be delivered matches the requirements.
 
+## Swearwords and Software Engineering
+
+PMF recognises that the vocabulary found in source code, comments, commit
+messages, and adjacent engineering conversations can carry useful information
+about how programmers experience the code they maintain. Strehmel's empirical
+study of open-source C repositories compared projects containing English
+swearwords with projects that did not contain them and reported that the former
+set showed significantly better adherence to coding standards under several
+statistical tests [@?SWEARWORDS-CODE-QUALITY].
+
+This observation is important for PMF because it treats apparently informal
+programmer expression as a signal that can be studied rather than dismissed.
+Swearwords can indicate emotional involvement, frustration with unnecessary
+complexity, or unusually direct feedback about code paths that deserve
+attention. In practical software engineering, such signals can help teams
+identify confusing interfaces, fragile components, and places where programmers
+have invested enough attention to leave candid warnings for future readers.
+
+The correlation MUST NOT be interpreted as a recommendation to add swearwords
+to source code to improve quality. PMF instead recommends that teams preserve
+useful technical context, review emotionally charged comments with empathy, and
+turn the underlying engineering signal into tests, refactoring, documentation,
+or clearer interfaces.
+
 ##  Conventions and Terminology
 
 The key words "**MUST**", "**MUST NOT**", "**REQUIRED**", "**SHALL**", "**SHALL NOT**",
@@ -134,6 +158,14 @@ The authors wish to thank all the programmers who program.
    <title>The Tao of Programming</title>
    <author initials='' surname='James' fullname='Geoffrey James'></author>
    <date></date>
+  </front>
+</reference>
+
+<reference anchor='SWEARWORDS-CODE-QUALITY' target='https://cme.h-its.org/exelixis/pubs/JanThesis.pdf'>
+  <front>
+   <title>Is there a Correlation between the Use of Swearwords and Code Quality in Open Source Code?</title>
+   <author initials='J.' surname='Strehmel' fullname='Jan Strehmel'></author>
+   <date year='2023'></date>
   </front>
 </reference>
 

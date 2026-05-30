@@ -83,6 +83,28 @@ the programming aspect and solely serves to support the PMF methodology.</t>
 </ul>
 </section>
 
+<section anchor="swearwords-and-software-engineering"><name>Swearwords and Software Engineering</name>
+<t>PMF recognises that the vocabulary found in source code, comments, commit
+messages, and adjacent engineering conversations can carry useful information
+about how programmers experience the code they maintain. Strehmel's empirical
+study of open-source C repositories compared projects containing English
+swearwords with projects that did not contain them and reported that the former
+set showed significantly better adherence to coding standards under several
+statistical tests <xref target="SWEARWORDS-CODE-QUALITY"></xref>.</t>
+<t>This observation is important for PMF because it treats apparently informal
+programmer expression as a signal that can be studied rather than dismissed.
+Swearwords can indicate emotional involvement, frustration with unnecessary
+complexity, or unusually direct feedback about code paths that deserve
+attention. In practical software engineering, such signals can help teams
+identify confusing interfaces, fragile components, and places where programmers
+have invested enough attention to leave candid warnings for future readers.</t>
+<t>The correlation <bcp14>MUST NOT</bcp14> be interpreted as a recommendation to add swearwords
+to source code to improve quality. PMF instead recommends that teams preserve
+useful technical context, review emotionally charged comments with empathy, and
+turn the underlying engineering signal into tests, refactoring, documentation,
+or clearer interfaces.</t>
+</section>
+
 <section anchor="conventions-and-terminology"><name>Conventions and Terminology</name>
 <t>The key words &quot;<bcp14>MUST</bcp14>&quot;, &quot;<bcp14>MUST NOT</bcp14>&quot;, &quot;<bcp14>REQUIRED</bcp14>&quot;, &quot;<bcp14>SHALL</bcp14>&quot;, &quot;<bcp14>SHALL NOT</bcp14>&quot;,
 &quot;<bcp14>SHOULD</bcp14>&quot;, &quot;<bcp14>SHOULD NOT</bcp14>&quot;, &quot;<bcp14>RECOMMENDED</bcp14>&quot;, &quot;<bcp14>MAY</bcp14>&quot;, and &quot;<bcp14>OPTIONAL</bcp14>&quot; in this
@@ -119,6 +141,13 @@ includes the act of simplifying or removing code to reduce the attack surface.</
     <title>The Tao of Programming</title>
     <author fullname="Geoffrey James" surname="James"></author>
     <date></date>
+  </front>
+</reference>
+<reference anchor="SWEARWORDS-CODE-QUALITY" target="https://cme.h-its.org/exelixis/pubs/JanThesis.pdf">
+  <front>
+    <title>Is there a Correlation between the Use of Swearwords and Code Quality in Open Source Code?</title>
+    <author fullname="Jan Strehmel" initials="J." surname="Strehmel"></author>
+    <date year="2023"></date>
   </front>
 </reference>
 </references>
