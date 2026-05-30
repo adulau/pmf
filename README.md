@@ -12,3 +12,12 @@ engineering methodologies.
 ## Internet-Draft
 
 The [Programming Methodology Framework, aka PMF](raw.md.txt), is available in ASCII format. Published as [draft-02](https://www.ietf.org/archive/id/draft-dulaunoy-programming-methodology-framework-02.html).
+
+## Swearwords and Software Engineering
+
+PMF includes a section on the engineering value of treating swearwords and
+other emotionally charged programmer vocabulary as signals. The section cites
+Jan Strehmel's 2023 study, [Is there a Correlation between the Use of
+Swearwords and Code Quality in Open Source Code?](doc/JanThesis.pdf), while
+noting that the reported correlation should not be read as advice to add
+swearwords artificially.
